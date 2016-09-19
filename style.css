@@ -1,0 +1,74 @@
+/*
+Force font to be Arial.
+*/
+* {
+		font-size: 100%;
+		font-family: Arial;
+	}
+.form_label{
+		padding: 5px;
+	}
+/*
+Add colon after the label instead of adding it to 
+each label.
+*/
+.form_label > label:after {
+		content: " :";
+	}
+fieldset {
+		margin: 20px;
+        border: 1px solid #666;
+        border-radius: 8px;
+        padding-top: 10px;
+	}
+label {
+		display: block;
+		margin: 35px 0 0 0;
+    }
+/*
+Float the 
+*/
+input {
+		display: inline-block;
+		float: left;
+		border: 1px solid #ccc;
+		padding: 5px;
+	}
+/*
+Add style to input elements with type attributes with 
+the value text
+*/
+input[type=text]{
+		border-radius: 5px;
+		width: 270px;
+		height: 25px;
+	}
+/*
+Add scroll to hide part of State list, so it doesn't
+take up too much space
+*/
+.overflow {
+		height: 200px;
+    }
+/*
+
+*/
+.div_table{
+		display: table;
+		width: 100%;
+	}
+	
+.div_table_row{
+		display: table-row;
+	}
+.div_table_head{
+		display: table-header-group;
+		font-weight: bold;
+		
+	}
+.div_table_body{
+		display: table-row-group;
+	}
+.div_table_cell, .div_table_header{
+		display: table-cell;
+	}
