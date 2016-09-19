@@ -1,7 +1,7 @@
 # helloworld
 Coding Challenge for Hello World
 
-Scripting Libraries used; <br />
+Scripting libraries used; <br />
 js/jquery-3.1.0.min.js <br />
 js/jquery-ui.min.js <br />
 css/jquery-ui.min.css <br />
