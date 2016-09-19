@@ -2,7 +2,7 @@
 Only let users enter letters, numbers, periods, dashes, and spaces 
 */
 function validateAddress(element){
-	pattern = /^[0-9]*\s[a-zA-Z\.\-\s\,]*$/;
+	pattern = /^[0-9a-zA-Z\.\-\s\,\#]*$/;
 	return regexResult(pattern, element);
 }
 /*
